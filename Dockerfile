@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.6
 
 ARG pip_installer="https://bootstrap.pypa.io/get-pip.py"
 
