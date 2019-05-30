@@ -1,7 +1,7 @@
-FROM alpine:3.6
+FROM alpine:3.9.4
 
 ARG pip_installer="https://bootstrap.pypa.io/get-pip.py"
-ARG awscli_version="1.11.130"
+ARG awscli_version="1.16.168"
 
 # Install dependent packages
 RUN apk --update add \
